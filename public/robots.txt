@@ -1,0 +1,32 @@
+# Allow all web crawlers to access all content
+User-agent: *
+Allow: /
+
+# Main domain sitemap
+Sitemap: https://dipen.live/sitemap.xml
+
+# Harmoniq subdomain
+Host: https://harmoniq.dipen.live
+Allow: /
+
+# Qchex subdomain
+Host: https://qchex.dipen.live
+Allow: /
+
+# Prevent crawling of error pages, admin areas, and API endpoints
+Disallow: /api/
+Disallow: /admin/
+Disallow: /error/
+Disallow: /_next/static/
+
+# Allow crawling of static assets
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.ico$
+
+# Crawl-delay to prevent overwhelming the server
+Crawl-delay: 1 

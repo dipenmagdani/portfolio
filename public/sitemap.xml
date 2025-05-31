@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Main domain sitemap -->
+    <sitemap>
+        <loc>https://dipen.live/sitemap-main.xml</loc>
+        <lastmod>2024-03-19</lastmod>
+    </sitemap>
+    <!-- Harmoniq subdomain sitemap -->
+    <sitemap>
+        <loc>https://harmoniq.dipen.live/sitemap.xml</loc>
+        <lastmod>2024-03-19</lastmod>
+    </sitemap>
+    <!-- Qchex subdomain sitemap -->
+    <sitemap>
+        <loc>https://qchex.dipen.live/sitemap.xml</loc>
+        <lastmod>2024-03-19</lastmod>
+    </sitemap>
+</sitemapindex> 
