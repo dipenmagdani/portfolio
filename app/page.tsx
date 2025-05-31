@@ -60,9 +60,9 @@ export default function Home() {
           <div />
         </BackgroundBeamsWithCollision>
       </div>
-      <div className="relative z-10 text-center space-y-12 p-10 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center space-y-12 py-8 max-w-4xl mx-auto">
         <div className="space-y-6">
-          <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#1488CC] to-[#2B32B2]  bg-opacity-50 p-2 ">
+          <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#ee4242] to-[#F37335]  bg-opacity-50 p-4 flex items-center justify-center h-[120px] underline">
             <Typewriter
               words={[
                 "Dipen Magdani",
@@ -74,7 +74,7 @@ export default function Home() {
             />
           </h1>
 
-          <p className="text-xl md:text-2xl text-neutral-200 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-neutral-200  mx-auto leading-relaxed">
             A passionate Frontend Developer and Graphic Designer crafting
             beautiful, user-friendly digital experiences.
           </p>

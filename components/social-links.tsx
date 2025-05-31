@@ -10,25 +10,25 @@ const socialLinks = [
     name: "GitHub",
     href: "https://github.com/dipenmagdani",
     icon: SiGithub,
-    color: "hover:text-[#333]",
+    color: "hover:text-orange-500",
   },
   {
     name: "LinkedIn",
     href: "https://linkedin.com/in/dipenmagdani",
     icon: SiLinkedin,
-    color: "hover:text-[#0A66C2]",
+    color: "hover:text-orange-500",
   },
   {
     name: "Twitter",
     href: "https://twitter.com/vajratheastra",
     icon: SlSocialTwitter,
-    color: "hover:text-[#1DA1F2]",
+    color: "hover:text-orange-500",
   },
   {
     name: "Email",
     href: "mailto:dipenmagdani@gmail.com",
     icon: SiGmail,
-    color: "hover:text-[#EA4335]",
+    color: "hover:text-orange-500",
   },
 ];
 

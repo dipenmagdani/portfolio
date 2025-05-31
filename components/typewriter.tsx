@@ -15,6 +15,8 @@ export const Typewriter = ({ words }: TypewriterProps) => {
         loop: true,
         delay: 75,
         deleteSpeed: 50,
+        cursor: "_",
+        cursorClassName: "text-orange-500",
       }}
     />
   );
