@@ -13,11 +13,13 @@ import {
   SiFramer,
   SiGit,
   SiJavascript,
+  SiRemix,
 } from "react-icons/si";
 
 const skills = [
   { name: "React", icon: SiReact, color: "text-[#61DAFB]" },
   { name: "Next.js", icon: SiNextdotjs, color: "text-white" },
+  { name: "Remix", icon: SiRemix, color: "text-purple-600" },
   { name: "TypeScript", icon: SiTypescript, color: "text-[#3178C6]" },
   { name: "JavaScript", icon: SiJavascript, color: "text-[#F7DF1E]" },
   { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-[#38B2AC]" },
