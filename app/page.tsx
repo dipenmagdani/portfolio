@@ -74,7 +74,7 @@ export default function Home() {
             />
           </h1>
 
-          <p className="text-xl md:text-2xl text-neutral-200  mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-neutral-200  mx-auto leading-relaxed p-2">
             A passionate Frontend Developer and Graphic Designer crafting
             beautiful, user-friendly digital experiences.
           </p>
