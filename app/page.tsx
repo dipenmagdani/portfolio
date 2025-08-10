@@ -4,6 +4,14 @@ import { SocialLinks } from "@/components/social-links";
 import { Typewriter } from "@/components/typewriter";
 import { BackgroundBeamsWithCollision } from "@/components/background-beams-with-collision";
 import { DotBackground } from "@/components/dot-background";
+import { ProjectsGrid } from "@/components/projects-grid";
+import { About } from "@/components/about";
+import { Services } from "@/components/services";
+import { Contact } from "@/components/contact";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+import { PostersCarousel } from "@/components/posters-carousel";
+import { HeroParallax } from "@/components/hero-parallax";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -49,51 +57,53 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-black">
-      <div className="absolute inset-0">
-        <DotBackground>
-          <div />
-        </DotBackground>
-      </div>
-      <div className="absolute inset-0">
-        <BackgroundBeamsWithCollision>
-          <div />
-        </BackgroundBeamsWithCollision>
-      </div>
-      <div className="relative z-10 text-center space-y-12 py-8 max-w-4xl mx-auto">
-        <div className="space-y-6">
-          <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#ee4242] to-[#F37335]  bg-opacity-50 p-4 flex items-center justify-center h-[120px] underline">
-            <Typewriter
-              words={[
-                "Dipen Magdani",
-                "Vajratheastra",
-                "Frontend Developer",
-                "Graphic Designer",
-                "UI/UX Designer",
-              ]}
-            />
-          </h1>
-
-          <p className="text-xl md:text-2xl text-neutral-200  mx-auto leading-relaxed p-2">
-            A passionate Frontend Developer and Graphic Designer crafting
-            beautiful, user-friendly digital experiences.
-          </p>
+    <main className="relative min-h-screen w-full overflow-hidden bg-black">
+      <Header />
+      <section className="relative flex min-h-[90vh] items-center justify-center">
+        <div className="absolute inset-0">
+          <DotBackground>
+            <div />
+          </DotBackground>
         </div>
-
-        <SkillsList />
-
-        <div className="space-y-6">
-          <div className="inline-block rounded-full border border-white/20 bg-black/30 backdrop-blur-sm px-8 py-3">
-            <p className="text-lg text-neutral-200 animate-pulse">
-              Portfolio Coming Soon
+        <div className="absolute inset-0">
+          <BackgroundBeamsWithCollision>
+            <div />
+          </BackgroundBeamsWithCollision>
+        </div>
+        <HeroParallax>
+          <div className="relative z-10 text-center space-y-8 py-24 max-w-4xl mx-auto px-4">
+            <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#ee4242] to-[#F37335] p-2">
+              <Typewriter
+                words={[
+                  "Dipen Magdani",
+                  "Vajratheastra",
+                  "Frontend Developer",
+                  "Graphic Designer",
+                  "UI/UX Designer",
+                ]}
+              />
+            </h1>
+            <p className="text-xl md:text-2xl text-neutral-200 mx-auto leading-relaxed">
+              I build modern, performant web apps and craft elegant UI systems.
             </p>
+            <div className="pt-2 w-full flex justify-center">
+              <SocialLinks />
+            </div>
+            <div className="pt-4">
+              <SkillsList />
+            </div>
           </div>
-        </div>
+        </HeroParallax>
+      </section>
 
-        <div className="pt-4 w-full flex justify-center">
-          <SocialLinks />
-        </div>
-      </div>
+      <About />
+      <Services />
+      <ProjectsGrid />
+      <PostersCarousel />
+      <Contact />
+      <Footer />
+
+      <BackgroundBeams />
     </main>
   );
 }
