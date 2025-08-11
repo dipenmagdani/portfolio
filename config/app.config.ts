@@ -1,0 +1,4 @@
+export const appConfig = {
+  CLOUDINARY_CLOUD_NAME: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
+  CLOUDINARY_URL: process.env.NEXT_PUBLIC_CLOUDINARY_URL,
+};
