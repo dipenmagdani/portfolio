@@ -7,9 +7,9 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dipen Magdani - Frontend Developer & Designer",
+  title: "Dipen Magdani - Frontend & Full Stack Developer, Designer",
   description:
-    "Portfolio coming soon - Frontend development and UI/UX design specialist",
+    "Frontend and Full Stack Developer, UI/UX designer, and graphic artist crafting performant web apps and elegant interfaces.",
 };
 
 export default function RootLayout({

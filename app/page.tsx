@@ -15,13 +15,14 @@ import { HeroParallax } from "@/components/hero-parallax";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Dipen Magdani - Coming Soon...",
+  title: "Dipen Magdani - Frontend & Full Stack Developer | Graphic Designer",
   description:
-    "A passionate Frontend Developer and Graphic Designer crafting beautiful, user-friendly experiences. Skilled in web development, UI/UX design, and creating engaging digital solutions.",
+    "Frontend and Full Stack Developer and Graphic Designer crafting beautiful, user-friendly experiences. Skilled in web development, UI/UX design, and building robust digital solutions.",
   keywords: [
     "Dipen Magdani",
     "Vajratheastra",
     "Frontend Developer",
+    "Full Stack Developer",
     "Graphic Designer",
     "UI/UX Designer",
     "Web Development",
@@ -34,9 +35,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://dipen.live"),
   openGraph: {
     title:
-      "Dipen Magdani | Vajratheastra - Frontend Developer & Graphic Designer",
+      "Dipen Magdani | Vajratheastra - Frontend & Full Stack Developer, Graphic Designer",
     description:
-      "A passionate Frontend Developer and Graphic Designer crafting beautiful, user-friendly experiences.",
+      "Frontend and Full Stack Developer and Graphic Designer crafting beautiful, user-friendly experiences.",
     type: "website",
     locale: "en_US",
     url: "https://dipen.live",
@@ -44,14 +45,17 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Dipen Magdani | Vajratheastra - Frontend Developer & Graphic Designer",
+      "Dipen Magdani | Vajratheastra - Frontend & Full Stack Developer, Graphic Designer",
     description:
-      "A passionate Frontend Developer and Graphic Designer crafting beautiful, user-friendly experiences.",
+      "Frontend and Full Stack Developer and Graphic Designer crafting beautiful, user-friendly experiences.",
     creator: "@Vajratheastra",
   },
   robots: {
     index: true,
     follow: true,
+  },
+  alternates: {
+    canonical: "https://dipen.live",
   },
 };
 
@@ -78,6 +82,7 @@ export default function Home() {
                   "Dipen Magdani",
                   "Vajratheastra",
                   "Frontend Developer",
+                  "Full Stack Developer",
                   "Graphic Designer",
                   "UI/UX Designer",
                 ]}
